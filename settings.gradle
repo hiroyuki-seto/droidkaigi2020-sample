@@ -1,2 +1,2 @@
-include ':MaterialShapeDrawableSample'
+include ':MaterialShapeDrawableSample', ':ShapeSample'
 rootProject.name='DroidKaigi2020Sample'
