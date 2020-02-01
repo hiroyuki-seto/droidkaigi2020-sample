@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="view_elevation">4dp</dimen>
+    <dimen name="view_corner_size">16dp</dimen>
+</resources>
