@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="speech_balloon_corner_size">8dp</dimen>
+    <dimen name="speech_balloon_arrow_right">8dp</dimen>
+    <dimen name="speech_balloon_arrow_height">8dp</dimen>
+    <dimen name="speech_balloon_elevation">4dp</dimen>
+    <dimen name="speech_balloon_padding">8dp</dimen>
+</resources>
