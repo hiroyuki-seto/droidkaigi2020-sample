@@ -2,6 +2,7 @@ package com.setoh.sample.droidkaigi2020
 
 import android.content.res.ColorStateList
 import android.graphics.Color
+import android.graphics.drawable.InsetDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
@@ -42,7 +43,9 @@ class MainActivity : AppCompatActivity() {
             this.elevation = elevation
             setPadding(padding, padding, padding, padding)
         }
-        findViewById<View>(R.id.speech_balloon2).background = speechBalloonBackground2
+        val inset = resources.getDimensionPixelSize(R.dimen.speech_balloon_inset)
+        val insetBackground = InsetDrawable(speechBalloonBackground2, inset)
+        findViewById<View>(R.id.speech_balloon2).background = insetBackground
     }
 
 }

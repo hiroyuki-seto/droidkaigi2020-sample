@@ -6,4 +6,5 @@
     <dimen name="speech_balloon_arrow_height">8dp</dimen>
     <dimen name="speech_balloon_elevation">4dp</dimen>
     <dimen name="speech_balloon_padding">8dp</dimen>
+    <dimen name="speech_balloon_inset">16dp</dimen>
 </resources>
